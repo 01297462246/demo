@@ -1,0 +1,64 @@
+
+#score-box {
+    display: inline-block;
+    border: 1px solid #000;
+    background-color:orange;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 1000px;
+    width: 300px;
+    text-align: center;
+    margin-top:480px;
+    margin-left: 370px;
+}
+#score-box #score {
+    display: inline-block;
+    margin-left: 10px;
+    color: gold;
+}
+.circle {
+    display: inline-block;
+    width: 100px;
+    height: 15px;
+    border-radius: 100%;
+    position: absolute;
+    color: #fff;
+    text-align: center;
+    background-color:blue;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: 1px solid #fff;
+    cursor: pointer;
+    animation-name: moveStyle;
+    animation-duration: 1s;
+    animation-play-state: paused;
+    animation-fill-mode: both;
+}
+.cirlce-container {
+    position: relative;
+    height: 80vh;
+    width: 100%;
+    background-color:blue;
+}
+@keyframes moveStyle {
+    0% {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+    100% {
+        transition: all 1s ease;
+    }
+}
+
+#start-game{
+    border-radius: 1000px;
+    width: 300px;
+    margin-left: 380px;
+}
+.time{
+    margin-left: 510px;
+    margin-bottom: 10px;
+    margin-top: -10px;
+}

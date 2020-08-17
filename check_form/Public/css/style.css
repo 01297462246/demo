@@ -1,0 +1,12 @@
+.form-control{
+    display: block;
+    width: 99%;
+}
+
+.error>.form-control{
+    display: block;
+    border: 1px solid red;
+}
+.error>.text-muted{
+    color: red;;
+}
